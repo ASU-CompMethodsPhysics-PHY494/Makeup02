@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1a / calculate_phi_capacitor coarse",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=short tests/problem_1a/test_calculate_phi_capacitor_coarse.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 6
+    },
+    {
+      "name": "Test: Problem 1a / calculate_phi_capacitor fine",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=short tests/problem_1a/test_calculate_phi_capacitor_fine.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 6
+    },
+    {
+      "name": "Test: Problem 1a / boundary conditions",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=short tests/problem_1a/test_boundary_conditions.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 8
+    },
+    {
+      "name": "Test: Problem 1b / iterations",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=line tests/problem_1b/test_iterations.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 1b / potential 3d plot",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=line tests/problem_1b/test_potential_3d_plot.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test: Problem 1b / potential 2d plot",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "pytest --tb=line tests/problem_1b/test_potential_2d_plot.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
